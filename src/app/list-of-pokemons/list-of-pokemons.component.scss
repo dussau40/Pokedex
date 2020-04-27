@@ -7,10 +7,44 @@
 }
 
 .chip{
+    width: auto;
     margin-left: 2%;
     border-radius: 25%;
+    color: white;
+    display: inline-block;
+    margin-right: 2px;
 }
 
 .chip.brown{
     background-color: brown;
 }
+
+.chip.green{
+    background-color: green;
+}
+
+.PokemonImg{
+    height: 200px;
+}
+
+
+.card-content{
+    font-weight: bold;
+}
+
+.IV{
+    margin-bottom: 0px;
+    font-size: 75%;
+}
+
+.Element{
+    display: inline-block;
+}
+
+.Type{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    margin-right: 2px;
+}
+
